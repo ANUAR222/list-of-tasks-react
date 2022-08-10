@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  background-color: #00bcd4;
+  padding: 20px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li::before{
+  content: "\2022";
+  color: rgb(141, 145, 9);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.item{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: chartreuse;
+}
+boredr{
+  border-radius: 73px 73px 73px 73px;
+-moz-border-radius: 73px 73px 73px 73px;
+-webkit-border-radius: 73px 73px 73px 73px;
+border: 0px solid #000000;
+}
+button{
+  height:48px;
+  min-width:48px;
+  border-radius:0.25rem;
+  padding:0.5rem;
+  font-size:1rem;
+ background-color:aliceblue;
+  color:mediumblue;
+  cursor:pointer;  
+}
+input[type='text']{
+  height:48px;
+  min-width:48px;
+  border-radius:0.25rem;
+  padding:0.5rem;
+  font-size:1rem;
+ background-color:aliceblue;
+  color:mediumblue;
+  cursor:pointer;  
+}
+ button:focus,
+button:hover{
+  color:white;
+ background-color:limegreen;
+  outline:none;}
+  .addForm{
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    margin:0.5rem00;
+    padding:00.5rem 0.25rem;
+    border-bottom:1px solid #eee;
+  }
+  
